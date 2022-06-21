@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Code&display=swap");
+
+.container {
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_container {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.header {
+  font-weight: bold;
+  font-family: "Fira Code", "Courier New", Courier, monospace;
+  text-align: center;
+  background: linear-gradient(to right, #485563, #29323c);
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub_header {
+  text-align: center;
+}
+
+.search_container {
+  text-align: center;
+  padding: 4vw;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.search {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.response__container {
+  align-items: center;
+}
+
+.paragraph {
+  display: flex;
+  align-items: center;
+  font-size: 2.6vh;
+}
+
+.paragraph a{
+  color: rgba(0,0,0,.45);
+  margin-right: 1vh;
+}
+
+.date {
+  font-size: 4vh;
+}
+
+.avatar-style {
+  border-radius: 40px;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px
+}
+
+.facebookIcon {
+  margin-top: 20px;
+}
+
+.twitterIcon {
+  margin-top: 5px;
+}
+
+.linkedinIcon {
+  margin-top:5px;
+  background-color: #2867B2;
+  border-radius: 20px;
+}
